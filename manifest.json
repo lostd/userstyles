@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Userstyles",
+  "version": "1.0",
+  "description": "Apply static stylesheets",
+  "author": "Lazaros Koromilas",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bitbucket.org/*"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}
